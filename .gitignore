@@ -1,5 +1,4 @@
 __pycache__
 dataset/
 inference_output/
-models/
 *.pkl
