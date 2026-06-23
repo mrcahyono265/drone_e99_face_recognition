@@ -5,7 +5,7 @@ from matplotlib import text
 import numpy as np
 import argparse
 from datetime import datetime
-from webcam_config import cameraDroneThread
+from camera_config import cameraDroneThread
 from model import Models
 from app import UI
 from MiniFASNetV2 import MiniFASNetV2
@@ -13,8 +13,8 @@ from MiniFASNetV2 import MiniFASNetV2
 def main():
 
     # URL RTSP drone camera
-    # RTSP_URL = "rtsp://192.168.1.1:7070/webcam"
-    CAMERA_INDEX = 1
+    RTSP_URL = "rtsp://192.168.1.1:7070/webcam"
+    # CAMERA_INDEX = 1
     
     # Initialize and start
     # camera = cameraDroneThread(RTSP_URL).start()
